@@ -4,6 +4,11 @@
   "description": "A standardized way to manage contributor data in your projects.",
   "main": "src/main.js",
   "scripts": {
+    "gulp": "gulp --gulpfile task/main.js",
+    "bump": "npm run gulp -- bump",
+    "bump-major": "npm run gulp -- bump-major",
+    "bump-minor": "npm run gulp -- bump-minor",
+    "bump-patch": "npm run gulp -- bump-patch",
     "test": "mocha"
   },
   "repository": {
@@ -26,5 +31,12 @@
   "bugs": {
     "url": "https://github.com/o-s-c-d/node-oscd/issues"
   },
-  "homepage": "https://github.com/o-s-c-d/node-oscd#readme"
+  "homepage": "https://github.com/o-s-c-d/node-oscd#readme",
+  "devDependencies": {
+    "assert": "^1.4.1",
+    "gulp": "^3.9.1",
+    "gulp-bump": "^3.1.1",
+    "gulp-debug": "^4.0.0",
+    "mocha": "^5.2.0"
+  }
 }
