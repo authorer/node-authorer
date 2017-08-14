@@ -1,5 +1,5 @@
 {
-  "name": "oscd",
+  "name": "authorer",
   "version": "0.0.0",
   "description": "A standardized way to manage contributor data in your projects.",
   "main": "src/main.js",
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/o-s-c-d/node-oscd.git"
+    "url": "git+https://github.com/authorer/node-authorer.git"
   },
   "keywords": [
     "contribution",
@@ -30,9 +30,9 @@
   "author": "Richard Szakacs <richardszkcs@gmail.com> (https://github.com/richardszkcs)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/o-s-c-d/node-oscd/issues"
+    "url": "https://github.com/authorer/node-authorer/issues"
   },
-  "homepage": "https://github.com/o-s-c-d/node-oscd#readme",
+  "homepage": "https://github.com/authorer/node-authorer#readme",
   "devDependencies": {
     "assert": "^1.4.1",
     "gulp": "^3.9.1",

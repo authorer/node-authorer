@@ -1,5 +1,5 @@
-node-oscd
-=========
+node-authorer
+=============
 
 A standardized way to handle open source contributor data in your projects.
 
