@@ -1,0 +1,30 @@
+{
+  "name": "oscd",
+  "version": "0.0.0",
+  "description": "A standardized way to manage contributor data in your projects.",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/o-s-c-d/node-oscd.git"
+  },
+  "keywords": [
+    "contribution",
+    "contributor",
+    "data",
+    "project",
+    "management",
+    "author",
+    "license",
+    "email",
+    "website"
+  ],
+  "author": "Richard Szakacs <richardszkcs@gmail.com> (https://github.com/richardszkcs)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/o-s-c-d/node-oscd/issues"
+  },
+  "homepage": "https://github.com/o-s-c-d/node-oscd#readme"
+}
